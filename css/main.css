@@ -1,3 +1,15 @@
 .wrapper {
     max-width: 600px;
+    justify-self: center;
 }
+
+img {
+    size: 100%;
+}
+
+.hero {
+    background-image: url('images/hero-background.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;   
+  }
