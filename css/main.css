@@ -1,17 +1,20 @@
 body {
+    margin-top: 0%;
     max-width: 450px;
     justify-self: center;
 }
 
 img {
+    width: 100%;
     size: 100%;
 }
 
 .hero {
-    background-image: url('images/hero-background.jpg');
+    background-image: url(../images/hero-background.jpg);
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
+    padding-bottom: 50px;
   }
 
   .nav-dropdown-menu a {
@@ -21,34 +24,81 @@ img {
 
   .nav-dropdown-menu {
     text-decoration-line: none;
+    list-style: none;
   }
 
+  .hero-welcome h1 p {
+    color: aliceblue;
+  }
   .hero-welcome {
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
+
+.hero-welcome button {
+    margin-inline: 9em;
+    font-size: 1em;
+}
 
   .menu-bar {
     display: flex;
-  }
-
-  .welcome-main {
-
-  }
-
-  .main-img {
-    width: 100%;
-    border-radius: 6px;
-    margin-bottom: 20px;
+    justify-content: center;
+    
   }
   
   .grid-gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    margin-top: 6px;
   }
-  
-  .grid-gallery img {
+
+  .offer {
+    justify-content: center;
+  }
+
+  .about-us {
     width: 100%;
-    border-radius: 6px;
+  }
+
+  .testim {
+    background-color:  black;
+    padding-bottom: 200px;
+  }
+
+.testim p {
+    color: beige;
+
+}
+
+footer p {
+    border-top: 1px;
+    border-top-color: azure;
+}
+
+  .testim h3 {
+    color: orange;
+  }
+
+  .testim h1 {
+    color: aliceblue;
+  }
+
+  .testim-1 {
+    background-image: url(../images/testimonial-1.jpeg);
+    background-size: cover;
+    padding-top: 600px;
+  }
+
+  .testim-2 {
+    background-image: url(../images/testimonial-2.jpeg);
+    background-size: cover;
+    padding-top: 600px;
+  }
+
+  .testim-3 {
+    background-image: url(../images/testimonial-3.jpeg);
+    background-size: cover;
+    padding-top: 600px;
   }
