@@ -4,20 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/main.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
-  <title># mtm6201-midterm</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <title># mtm6201-midterm</title>
 </head>
 <body>
     <header class="hero">
       <div class="menu-bar">
-        <img src="../images/my-coffee-shop-logo.svg" alt="my-coffee-shop-logo">
-        <nav class="navbar">
+        <img src="../images/my-coffee-shop-logo.svg" alt="my-coffee-shop-logo">SS
                 <ul class="nav-dropdown-menu">
                   <li>-</li>
                   <li>-</li>
                   <li>-</li>
                 </ul>
-        </nav>
       </div>
       <div class="hero-welcome">
         <h1>Experience coffee like never before</h1>
@@ -26,70 +26,96 @@
         </div>
     </header>
     <br>
-    <main class="wrapper">
-      <p>Welcome to My Coffee House</p>
-      <h1>EXPERIENCE A NEW WAY TO TASTE COFFEE</h1>
-    </main>
-      <img class="main-img" src="images/latte.jpeg" alt="">
+    <div class="wrapper">
+      <h3>Welcome to My Coffee House</h3>
+      <h1>EXPERIENCE A NEW WAY
+        <br>TO TASTE COFFEE</h1>
+      </div>
+    <main class="main">
+      <img id="main-img" src="images/latte.jpeg" alt="">
       <div class="grid-gallery">
         <img src="images/coffee-beans.jpeg" alt="">
         <img src="images/pouring-coffee.jpeg" alt="Pouring coffee">
         <img src="images/three-cups.jpeg" alt="Latte art cheers">
         <img src="images/smiling-employee.jpeg" alt="Happy customer">
       </div>
+      </main>
       <br>
-      <div class="offer">
+      <div class="offers-title">
         <h3>what we offer</h3>
         <h1>why visit us?</h1>
+      </div>
+        <section class="offers">
+        <div>
         <img src="images/fair-trade.svg" alt="">
         <h2>Fair trade coffee</h2>
         <p>We build direct relationships with the farmers and producers who help in the development of delicious, sustainable and organic coffee.</p>
-        <br>
+        </div>
+       <div>
         <img src="images/local-baked-goods.svg" alt="">
-        <h1>Local baked goods</h1>
+        <h2>Local baked goods</h2>
         <p>We use local products to bake our goods and bring in a variety of treats from local bakers with our community.</p>
-        <br>
+        </div>
+        <div>
         <img src="images/made-with-love.svg" alt="">
-        <h1>Made with love</h1>
+        <h2>Made with love</h2>
         <p>We value our customers and make it our priority to serve everyone with respect and a friendly smile to start their day of right.</p>
       </div>
-      <br>
-      <div class="ml">
+    </section>
+      <section class="ml">
+        <div>
         <h3>Our menu</h3>
         <h1>Explore what we have to offer you</h1>
-          <button>Explore our menu</button>
+          <button class="mlb1">Explore our menu</button>
+        </div>
+        <div>
           <h3>Locations</h3>
           <h1>Find your nearest coffee shop</h1>
-          <button>View Locations</button>
+          <button class="mlb2">View Locations</button>
       </div>
+      </section>
       <br>
-      <div class="about">
-      <img class="about-us" src="images/about-us.jpeg" alt="">
+      <section class="about-us">
+      <img src="../images/about-us.jpeg" alt="">
+      <div>
 <h3>About us</h3>
 <h1>Read  our story</h1>
 <p>n the heart of our community, My Coffee House emerged as a humble local coffee shop that sought to redefine the coffee experience. Founded with a passion for quality brews and a commitment to fostering genuine connections, we embarked on this journey with a vision to create a warm and inviting space for coffee enthusiasts and casual patrons alike. My Coffee House quickly became a cherished gathering spot, where the rich aroma of freshly ground coffee beans mingled with the laughter of friends and the tapping of keyboards from those seeking a cozy workspace.</p>
 <button>Learn more</button>
     </div>
+    </section>
     <br>
-    <div class="testim">
-      <h3>Testimonials</h3>
-      <h1>What our customers say about us</h1>
-      <div class="testim-1">
-        <p>"I always make a point to visit My Coffee Company when in Ottawa. Delicious coffee and friendly service."</p>
-      <h3>Jane D., Toronto</h3>
-    </div>
-    <div class="testim-2">
-      <p>"Great atmosphere to get some work done while enjoying a cup or two of incredible coffee.</p>
-      <h3>Scott S., Ottawa</h3>
-    </div>
-    <div class="testim-3">
-      <p>"Best coffee in Ottawa and the service is top notch. Would highly recommend a visit."</p>
-      <h3>Susie F., Ottawa</h3>
-    </div>
-    <br>
+    <section class="testim">
+      <h3>TESTIMONIALS</h3>
+      <h1>What Our Customers <br>Say About Us</h1>
+  
+      <main class="testim-div">
+        <section class="testim-card-jane">
+          <div class="overlay">
+            <p>"I always make a point to visit My Coffee Company when in Ottawa. Delicious coffee and friendly service."</p>
+            <h3>JANE D., TORONTO</h3>
+          </div>
+        </section> 
+  
+        <section class="testim-card-scott">
+          <div class="overlay">
+            <p>"Great atmosphere to get some work done while enjoying a cup or two of incredible coffee."</p>
+            <h3>SCOTT S., OTTAWA</h3>
+          </div>
+        </section>
+  
+        <section class="testim-card-susie">
+          <div class="overlay">
+            <p>"Best coffee in the Ottawa area and the service is top notch. Would highly recommend a visit."</p>
+            <h3>SUSIE F., OTTAWA</h3>
+          </div>
+        </section>
+      </main>
+  
     <footer>
-    <p>© My Coffee Company 2025</p>
-  </footer>
-    </div>
+      <hr>
+      <p>© My Coffee Company 2025</p>
+    </footer>
+  </section>
 </body>
 </html>
